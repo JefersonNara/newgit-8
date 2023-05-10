@@ -18,14 +18,35 @@ funcion(parametros)
 
 
 */
-body{
-    display: grid;
-    grid-template-rows: 144px 1fr 72px;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-body>head{
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-    background-color: blue;
+header{
+    display: flex;
+    justify-content: space-around;
 
 }
+nav{
+    display: flex;
+    align-items: self-end;
+    gap: 16px;
+    padding: 20px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+header{
+    background-color: aqua;
+    width: 1400px;
+}
+
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+h2{
+    color: red;
+}
+
+footer{
+   background-color: aqua;
+   opacity: 60%;
+  }
