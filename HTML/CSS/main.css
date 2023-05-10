@@ -18,6 +18,14 @@ funcion(parametros)
 
 
 */
-head{
-    background-color: chocolate;
+body{
+    display: grid;
+    grid-template-rows: 144px 1fr 72px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+body>head{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    background-color: blue;
+
 }
