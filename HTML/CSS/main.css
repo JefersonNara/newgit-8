@@ -29,24 +29,60 @@ nav{
     gap: 16px;
     padding: 20px; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
 
 }
+a{
+    text-decoration: none;
+}
+section{
+    text-transform: capitalize;
+}
+
 header{
     background-color: aqua;
     width: 1400px;
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: black;
+    font-family: sans-serif;
 }
 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
+    text-align: center;
+    
 }
 h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: red;
 }
 
 footer{
-   background-color: aqua;
-   opacity: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border-radius: 1rem;
+   background-image: url("../img/img7.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: snow;
   }
+
+ fieldset{
+    border-radius: 1rem;
+  }
+  
