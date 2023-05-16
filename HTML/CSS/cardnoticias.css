@@ -1,0 +1,82 @@
+#card-payment{
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: rgb(26, 81, 171);
+  }
+  #card-payment2{
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: rgb(26, 81, 171);
+  }
+  #card-payment3{
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: rgb(26, 81, 171);
+  }
+
+
+  #noticias{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 110px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #card-picture{
+    height: 30vh;
+  }
+ 
+  #card-content{
+    background-color: aliceblue;
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  #card-text{
+    text-align: center;
+  }
+  #card-description{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3rem 1fr 25%;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: coral;
+    border-radius: 1rem;
+  }
+  #imgnoticias{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  @media screen and (max-width: 600px) {
+    #noticias{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        gap: 10px;
+      }
+  }

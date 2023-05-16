@@ -19,6 +19,7 @@ funcion(parametros)
 
 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url(./paginas.css);
 header{
     display: flex;
     justify-content: space-around;
@@ -47,6 +48,12 @@ header{
 }
 #slider{
     display: contents;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
 }
 body{
     display: flex;
@@ -58,15 +65,30 @@ body{
     font-family: 'Noto serif', sans-serif;
     font-size: 20px;
 }
+#historia{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    white-space: pre-line;
+}
+#tiposcoc{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
 p{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: black;
-    text-align: center;
+    text-align: justify;
     font-family: 'Noto serif', sans-serif;
     font-size: 20px;
+    
     
 }
 h1{
@@ -78,6 +100,7 @@ h2{
     justify-content: center;
     align-items: center;
     color: black;
+    gap: 50PX;
 }
 article{
     display: flex;
@@ -117,4 +140,19 @@ footer{
  fieldset{
     border-radius: 1rem;
   }
+  #historianav{
+    height: 170px;
+  }
+  #button{
+    padding: 1rem 1.5rem;
+    background-color: navy;
+    color: snow;
+    border-radius: 2rem;
+    box-shadow: 0 .25rem .25rem 0 rgba(72, 72, 175,.7);
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+
   
