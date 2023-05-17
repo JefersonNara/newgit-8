@@ -5,7 +5,7 @@
     flex-direction: column;
     border-radius: 1rem;
     overflow: hidden;
-    background-color: rgb(26, 81, 171);
+    background-color: rgba(0, 0, 0, 0.425);
   }
   #card-payment2{
     width: 25vw;
@@ -14,7 +14,7 @@
     flex-direction: column;
     border-radius: 1rem;
     overflow: hidden;
-    background-color: rgb(26, 81, 171);
+    background-color: rgb(0, 0, 0);
   }
   #card-payment3{
     width: 25vw;
@@ -23,7 +23,7 @@
     flex-direction: column;
     border-radius: 1rem;
     overflow: hidden;
-    background-color: rgb(26, 81, 171);
+    background-color: rgb(0, 0, 0);
   }
 
 
